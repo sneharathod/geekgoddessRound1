@@ -1,5 +1,6 @@
 ## Geek Goddess 2020
-Open Round question: Transcribed from Picture
+### Open Round question: Transcribed from Picture
+
 A state is divided into R'C cities. The government has launched an initiative to find the cities which are dominated by coders. Each city may or may not have coders residing in it. If the city is dominated by coders, it is marked with 1 else it is marked with 0. Two cities are termed as connected cities if they both are dominated by coders and can be reached by moving vertically, horizontally, or diagonally. Example: The given is the state with 3*3 cities and their dominance representation, 1 2 3 1 1 1 1 2 0 0 1 3 0 0
 Example: The given is the state with 3*3 cities and their dominance representation. 1 2 3 1 1 1 0 0 1 N 3 1 0 0 City[1.1) is directly connected to City[1,2]. City(1.2) is directly connected to City[1,1]. City(1, 3) and City(2, 3). City[1.3] is directly connected to City[1, 2] and City[2, 3]. City[2, 3] is directly connected to City[1, 2] and City(1,3). City[3.1) is not connected to any of the other coder dominant cities.
 One or more coder dominant connected cities form the Coding belt. In a belt, there may be coder dominant cities which are not directly connected but can be reached by moving through other dominant cities. It is possible that there are multiple coding belts in the state. 
